@@ -4,7 +4,9 @@ def fizzbuzz(int)
   end
 elsif int % 5 == 0
   puts "Buzz"
-else
-  puts nil
+end
+elsif int % 5 == 0 && int % 3 == 0
+  puts "FizzBuzz"
+end
 end
 end
